@@ -1,17 +1,101 @@
 /***** 
 COLOR CHEAT SHEET 
 
-
+https://coolors.co/fcf7f8-ba1200-63b4d1-de369d-f18f01
+#FCF7F8 -white
+#BA1200 -red
+#63B4D1 -blue
+#DE369D -pink
+#F18F01 -orange
 *****/
 
 
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
-
+body, p{
+    font-family: "Cormorant Garamond", system-ui;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Anton", system-ui;
 }
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url(../img/hero1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-primary{
+    background-color:#2db9ec !important;
+    color: #BA1200;
+}
+
+.btn-primary:hover{
+    background-color:crimson !important;
+    color:#2db9ec;
+}
+
+/********************/
+/******* Colors ******/
+/********************/
+
+hr.divder{
+    background-color: #4F5D75;
+}
+
+section.bg-primary{
+    background-color:#DE369D !important;
+}
+
+.btn-xl{
+    background-color: #FCF7F8;
+}
+
+.btn-xl:hover{
+    background-color: #F18F01;
+}
+
+.text-primary{
+    color:#BA1200 !important;
+}
+
+a.navbar-brand{
+    color:#2db9ec !important;
+    text-shadow: 4px 4px 4px black;
+}
+
+/********************/
+/******* Navbar ******/
+/********************/
+
+#mainNav.navbar-shrink{
+    background-color:#4F5D75;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color:#2db9ec;
+    padding: 0 1rem;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color:#2db9ec;
+}
+
+
+
+
+
+
+
+
+
+
+
+
